@@ -92,15 +92,28 @@ h1{
     transition: color 0.9s ease-out, background-color 0.9s ease-out;
 }
 
+.btn a{
+  text-decoration: none;
+  color: #48C9B0;
+}
+
 .btn:hover, .btn:focus {
     background-color:#48C9B0;
     color: white;
-    
-    
-    
+   
     -webkit-transition: color 0.7s ease-in, background-color 0.7s ease-in;
     transition: color 0.7s ease-in, background-color 0.7s ease-in;
 }
+
+
+.btn a:hover, .btn a:focus {
+    
+    color: white;
+   
+    -webkit-transition: color 0.7s ease-in, background-color 0.7s ease-in;
+    transition: color 0.7s ease-in, background-color 0.7s ease-in;
+}
+
 
   pre{
     background-color: transparent;
