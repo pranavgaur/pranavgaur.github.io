@@ -94,11 +94,8 @@ h1{
   box-shadow: 1px 1px 1px #000;
 }
 
-.ghost{
-  margin-left: 250px;
-}
 
-  a.ghost {
+  .btn {
     color:black;
     border: 1px solid #48C9B0;
     border-radius: 5px;
@@ -106,7 +103,7 @@ h1{
     width: 180px;
     padding: 2px;
     
-    margin-left: 300px;
+    margin-left: 180px;
     font-size: 2em;
     text-align: center;
     text-decoration: none;
@@ -114,7 +111,7 @@ h1{
     transition: color 0.9s ease-out, background-color 0.9s ease-out;
 }
 
-a.ghost:hover, a.ghost:focus {
+.btn:hover, .btn:focus {
     background-color:#48C9B0;
     color: white;
     
