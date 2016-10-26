@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CODE E ERA</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" style="margin-bottom: 0px; background-color: black; opacity: 0.9;">
+  <div class="container-fluid">
+    
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+				
+				<span class="glyphicon glyphicon-chevron-down"></span>
+				
+			</button>
+			<a class="navbar-brand" href="index.html">cOdE eRa</a>
+		</div>
+		
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul class="nav navbar-nav">
+				
+				<li><a href="#" >About</a></li>
+				<li><a href="#" >Contact</a></li>
+			</ul>
+			<form role="search" class="navbar-form navbar-right">
+            	<div class="form-group">
+                	<input type="text" placeholder="Search" class="form-control">
+            	</div>
+        	</form>
+		</div>
+	
+
+  </div>
+</nav>
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top" style="margin-top:51px;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+         <span class="glyphicon glyphicon-chevron-down"></span>
+      </button>
+      <a class="navbar-brand" href="#">Microprocessor 8085</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#headsection">HSection</a></li>
+          <li><a href="#section1">Section 1</a></li>
+          <li><a href="#section2">Section 2</a></li>
+          <li><a href="#section3">Section 3</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Section 4-1</a></li>
+              <li><a href="#section42">Section 4-2</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div id="headsection" class="col-md-10  col-md-offset-1">
+  <h1>Addressing Modes</h1>
+  <p class="text-justify">For executing any instruction micro processor requires data. Hence, alongwith the instruction we have to give address of source data. 
+The method by which the address of source of data is given in an instruction is called as addressing modes of source or simply 
+addressing mode. The microprocessor will process the data and will produce reult. To store this result we will again give an address 
+of destination of reult. This is called addressing mode of destination.
+<br><br><br>
+There are five types of addressing modes : 
+<br><br>
+
+<h4>1. IMMEDIATE ADDRESSING MODE</h4>
+  If the 8 or 16 bit data required for executing the instruction is given along with the instruction , 
+  then such an instruction is called IMMEDIATE ADDRESSING MODE instruction. The instructions generally
+  have last alphabet 'I'.<br>
+  <pre>
+Ex: MVI A - move immediate data into accumulator
+    LXI B - </pre>
+<br>
+
+<h4>2. DIRECT ADDRESSING MODE</h4>
+  If the 8 or 16 bit data required for executing the instruction is stored at some memory location and
+  <div id="rm1" class="collapse out">
+  16 bit address of this memory location is giver alongwith the instruction , then such instructions
+  are called DIRECT ADDRESSING MODE instructions.<br>
+  <pre>
+Ex: LDA 3000H - with this instruction , 8 bit data at mem location 3000H is transferred to accumulator directly.</pre>
+  
+<br>
+<h4>3. REGISTER DIRECT ADDRESSING MODE</h4>
+  If the 8 or 16 bit data required for executing the instruction is stored in register/register pair and the 
+  name of the register pair is given along with the instruction, then it is called REGISTER DIRECT ADDRESSING MODE
+  instructions.<br>
+  <pre>
+Ex: MOV A,B - the data is moved from one register to another.</pre>
+ 
+<br>
+<h4>4. REGISTER INDIRECT ADDRESSING MODE</h4>
+  If the 8 or 16 bit data required for executing the instruction is stored in some memory location whose address 
+  is stored in register/register pair and the name of the regiter/register pair is given alongwith the instruction, 
+  it is called REGISTER INDIRECT ADDRESSING MODE instructions.<br>
+  <pre>
+Ex: LDAX B - accumulator is loaded with the 8 bit data from the memory location whose address is stored in BC pair, 
+  so it has indirect addressing mode.</pre>
+  
+<br>
+<h4>5. IMPLICIT ADDRESSING MODE</h4>
+  When the address of source data as well as dstination of result is fixed, then there is no need to giv any operand 
+  along with the instruction , such instruction are called IMPLICIT ADDRESSING MODE.<br>
+  <pre>
+Ex: CMA - Compliment accumulator. Here, the data is picked from accumulator, complimented and saved back to accumulator.</pre>
+</p>
+
+</div>
+
+
+<button type="button" class="btn btn-default btn-circle col-md-offset-6" data-toggle="collapse" data-target="#rm1"><i class="glyphicon glyphicon-chevron-down"></i></button>
+
+</div>
+
+<div id="section1" class="col-md-10  col-md-offset-1">
+<h1>OPCODE and OPERAND</h1>
+  <p class="text-justify">
+    Microprocessor instruction is used to tell the microprocessor, to do a specified task. Each instruction contains two parts : <br><br>
+OPERATION CODE (OPCODE) : The first part of the instruction specifies the task to be performed. <br>
+OPERAND                 : The second part of the instruction is the data to be operated on .
+<pre>
+M O V     C , A 
+ |          |
+Opcode   Operand
+</pre>
+   </p>  
+</div>
+
+<div id="section2" class="col-md-10  col-md-offset-1">
+  <h1>TYPES OF 8085 INSTRUCTION</h1>
+  <p>
+    <h4>1.ONE/SINGLE BYTE INSTRUCTION (SBI)</h4>
+  Any instruction in microprocessor, in which number is not given as operand in the instruction , can be completely 
+  expressed by one byte of code or two digit hexacode. Such instruction is called SBI.
+  <pre>
+Ex :  MOV A, B
+      ADD C
+      LDAX B
+  </pre>
+<div id="rm2" class="collapse out">
+<h4>2.TWO/DOUBLE BYTE INSTRUCTION (DBI)</h4>
+   If 8 bit number is given in Operand, then to express such instructions completely , we need two 8 bit codes. Hence
+
+  such instructions are called double byte instructions.
+  <pre>
+Ex :  MVI A, 36H
+      CPI   24H
+       /      \
+ First Bit     Second Bit
+  </pre>
+
+
+ 
+ <h4>3.THREE/TRIPLE BYTE INSTRUCTION (TBI)</h4>
+  If 16 bit number is given in operand, then to express such instructions completely, we need three 8 bit codes. Hence 
+  such instruction are called TBI.<br>
+  -First byte will be the opcode<br>
+  -Second byte will be the 8 LSB's of 16 bit number<br>
+  -Third byte will be the 8 MSB's of 16 bit number<br>
+  <pre>
+Ex :  LXI H, 1536H
+  </pre>
+  </p>
+</div>
+ <button type="button" class="btn btn-default btn-circle col-md-offset-6" data-toggle="collapse" data-target="#rm2"><i class="glyphicon glyphicon-chevron-down"></i></button>
+
+
+</div>
+
+
+
+<div id="section3" class="col-md-10  col-md-offset-1">
+  <h1>INSTRUCTION SET OF 8085</h1>
+  <p>1. Data Transfer Instructions<br>
+2.  Arithmetic Instructions<br>
+3.  Logical Instructions<br>
+4.  Stack Instructions<br>
+5.  Branching Instructions<br>
+6.  Machine control Instructions<br>
+7.  Input and Output Instructions</p>
+
+
+</div>
+
+
+<div id="section41" class="col-md-10  col-md-offset-1">
+ <h1>Section 4 Submenu 1</h1>
+ <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+ 
+</div>
+
+
+<div id="section42" class="col-md-10  col-md-offset-1">
+  <h1>Section 4 Submenu 2</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+
+
+
+<script>
+$(document).ready(function(){
+  // Add scrollspy to <body>
+  $('body').scrollspy({target: ".navbar", offset: 50});
+
+  // Add smooth scrolling on all links inside the navbar
+  $("#myNavbar a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    }  // End if
+  });
+});
+</script>
+
+
+</body>
+
+
+</html>
