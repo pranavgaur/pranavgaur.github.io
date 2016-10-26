@@ -12,160 +12,180 @@
 </head>
 
 
-<body >
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-
-
-<div class="jumbotron" style="background-image: url(images/jumbo.jpg); background-size: cover; background-attachment: fixed; margin-bottom: 0px;
-      height: 700px; text-align: center; color: white;">
-
-    <div  class="container" style="margin-top: 120px; text-align: center; color: white;">
-        <h1>Learn to Code</h1>
-        <p>In today's world internet is the most popular way of connecting with the people. At <a href="#" target="_blank">codeera.com</a> you will learn the essential of programming and technologies.</p>
-        
-    </div>
-
-</div>
-  
-    
-  
-
-
-<nav class="navbar navbar-default" data-spy="affix" data-offset-top="680" style="margin-bottom: 0px; background-color: white; border-color:white; opacity: 0.97;">
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="0" style="margin-bottom: 0px; background-color: white; border-color:white; opacity: 0.97;">
   <div class="container-fluid">
     
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
 
-			</button>
+      </button>
       <a href="#"><img id="logo-navbar-middle" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/32877/logo-thing.png" width="200" alt="Logo Thing main logo"></a>
-			
-		</div>
-		
-		<div class="collapse navbar-collapse" id="navbarCollapse">
-			<ul class="nav navbar-nav">
-				<li><a href="#" >Posts</a></li>
+      
+    </div>
+    
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="nav navbar-nav">
+        <li><a href="#" >Posts</a></li>
         <li><a href="#" >Design</a></li>
        <li></li>
-				<li><a href="#" >About</a></li>
-				<li><a href="#" >Contact</a></li>
-			</ul>
-			<form role="search" class="navbar-form navbar-right">
-            	<div class="form-group">
-                	<input type="text" placeholder="Search" class="form-control">
-            	</div>
-        	</form>
-		</div>
-	
+        <li><a href="#" >About</a></li>
+        <li><a href="#" >Contact</a></li>
+      </ul>
+      <form role="search" class="navbar-form navbar-right">
+              <div class="form-group">
+                  <input type="text" placeholder="Search" class="form-control">
+              </div>
+          </form>
+    </div>
+  
 
   </div>
 </nav>
 
 
+<div class="jumbotron" style="background-color: #1abc9c; background-size: cover; background-attachment: fixed; margin-bottom: 0px;
+      height: 300px; text-align: center; color: white;">
 
-<div class="blog-container">
-
-  <div class="container">
-    <div class="row" >
+    <div  class="container" style="margin-top: 50px; text-align: center; color: white;">
+        <h1>Microprocessor 8085</h1>
         
-        <div class="col-sm-4 col-md-offset-1" id="blog-box-left" >
-            left
-        </div>
-        <div class="col-sm-6" id="blog-box-right" >
-
-            <h1>MICROPROCESSOR 8085</h1>
-      <hr>
-
-        <h1>
-          <small>  Here’s a program that will kick-start your journey to becoming a good embedded systems engineer. We offer ‘Introduction to Microprocessors’ as the first in this series. </small>
         
-        </h1>
-        <button type="button" class="btn btn-default">read more</button>
-        
-        </div>
-
-
     </div>
-  </div>
+
 </div>
 
 
-<div class="blog-container">
-
-  <div class="container">
-    <div class="row" >
-        
-        <div class="col-sm-4 col-md-offset-1" id="blog-box-left" >
-            left
-        </div>
-        <div class="col-sm-6" id="blog-box-right" >
-
-           right
-        </div>
 
 
-    </div>
-  </div>
-</div>
+<div  class="col-md-10  col-md-offset-1" style="background-color:#FDFEFE;margin-top: 50px; padding:50px;height:auto;color: #2E4053;">
+  <h1>Addressing Modes</h1>
+  <p class="text-justify">For executing any instruction micro processor requires data. Hence, alongwith the instruction we have to give address of source data. 
+The method by which the address of source of data is given in an instruction is called as addressing modes of source or simply 
+addressing mode. The microprocessor will process the data and will produce reult. To store this result we will again give an address 
+of destination of reult. This is called addressing mode of destination.
+<br><br><br>
+There are five types of addressing modes : 
+<br><br>
 
-<div class="blog-container">
+<h4>1. IMMEDIATE ADDRESSING MODE</h4>
+  If the 8 or 16 bit data required for executing the instruction is given along with the instruction , 
+  then such an instruction is called IMMEDIATE ADDRESSING MODE instruction. The instructions generally
+  have last alphabet 'I'.<br>
+  <pre>
+Ex: MVI A - move immediate data into accumulator
+    LXI B - </pre>
+<br>
 
-  <div class="container">
-    <div class="row" >
-        
-        <div class="col-sm-4 col-md-offset-1" id="blog-box-left" >
-            left
-        </div>
-        <div class="col-sm-6" id="blog-box-right" >
-
-           right
-        </div>
-
-
-    </div>
-  </div>
-</div>
-
-<div class="blog-container">
-
-  <div class="container">
-    <div class="row" >
-        
-        <div class="col-sm-4 col-md-offset-1" id="blog-box-left" >
-            left
-        </div>
-        <div class="col-sm-6" id="blog-box-right" >
-
-           right
-        </div>
-
-
-    </div>
-  </div>
-</div>
-
-<div class="blog-container">
-
-  <div class="container">
-    <div class="row" >
-        
-        <div class="col-sm-4 col-md-offset-1" id="blog-box-left" >
-            left
-        </div>
-        <div class="col-sm-6" id="blog-box-right" >
-
-           right
-        </div>
+<h4>2. DIRECT ADDRESSING MODE</h4>
+  If the 8 or 16 bit data required for executing the instruction is stored at some memory location and
+  
+  16 bit address of this memory location is giver alongwith the instruction , then such instructions
+  are called DIRECT ADDRESSING MODE instructions.<br>
+  <pre>
+Ex: LDA 3000H - with this instruction , 8 bit data at mem location 3000H is transferred to accumulator directly.</pre>
+  
+<br>
+<h4>3. REGISTER DIRECT ADDRESSING MODE</h4>
+  If the 8 or 16 bit data required for executing the instruction is stored in register/register pair and the 
+  name of the register pair is given along with the instruction, then it is called REGISTER DIRECT ADDRESSING MODE
+  instructions.<br>
+  <pre>
+Ex: MOV A,B - the data is moved from one register to another.</pre>
+ 
+<br>
+<h4>4. REGISTER INDIRECT ADDRESSING MODE</h4>
+  If the 8 or 16 bit data required for executing the instruction is stored in some memory location whose address 
+  is stored in register/register pair and the name of the regiter/register pair is given alongwith the instruction, 
+  it is called REGISTER INDIRECT ADDRESSING MODE instructions.<br>
+  <pre>
+Ex: LDAX B - accumulator is loaded with the 8 bit data from the memory location whose address is stored in BC pair, 
+  so it has indirect addressing mode.</pre>
+  
+<br>
+<h4>5. IMPLICIT ADDRESSING MODE</h4>
+  When the address of source data as well as dstination of result is fixed, then there is no need to giv any operand 
+  along with the instruction , such instruction are called IMPLICIT ADDRESSING MODE.<br>
+  <pre>
+Ex: CMA - Compliment accumulator. Here, the data is picked from accumulator, complimented and saved back to accumulator.</pre>
+</p>
 
 
-    </div>
-  </div>
+
+
+
+
+
+
+<h1>OPCODE and OPERAND</h1>
+  <p class="text-justify">
+    Microprocessor instruction is used to tell the microprocessor, to do a specified task. Each instruction contains two parts : <br><br>
+OPERATION CODE (OPCODE) : The first part of the instruction specifies the task to be performed. <br>
+OPERAND                 : The second part of the instruction is the data to be operated on .
+<pre>
+M O V     C , A 
+ |          |
+Opcode   Operand
+</pre>
+   </p>  
+
+
+
+  <h1>TYPES OF 8085 INSTRUCTION</h1>
+  <p>
+    <h4>1.ONE/SINGLE BYTE INSTRUCTION (SBI)</h4>
+  Any instruction in microprocessor, in which number is not given as operand in the instruction , can be completely 
+  expressed by one byte of code or two digit hexacode. Such instruction is called SBI.
+  <pre>
+Ex :  MOV A, B
+      ADD C
+      LDAX B
+  </pre>
+
+<h4>2.TWO/DOUBLE BYTE INSTRUCTION (DBI)</h4>
+   If 8 bit number is given in Operand, then to express such instructions completely , we need two 8 bit codes. Hence
+
+  such instructions are called double byte instructions.
+  <pre>
+Ex :  MVI A, 36H
+      CPI   24H
+       /      \
+ First Bit     Second Bit
+  </pre>
+
+
+ 
+ <h4>3.THREE/TRIPLE BYTE INSTRUCTION (TBI)</h4>
+  If 16 bit number is given in operand, then to express such instructions completely, we need three 8 bit codes. Hence 
+  such instruction are called TBI.<br>
+  -First byte will be the opcode<br>
+  -Second byte will be the 8 LSB's of 16 bit number<br>
+  -Third byte will be the 8 MSB's of 16 bit number<br>
+  <pre>
+Ex :  LXI H, 1536H
+  </pre>
+  </p>
+
+
+
+
+  <h1>INSTRUCTION SET OF 8085</h1>
+  <p>1. Data Transfer Instructions<br>
+2.  Arithmetic Instructions<br>
+3.  Logical Instructions<br>
+4.  Stack Instructions<br>
+5.  Branching Instructions<br>
+6.  Machine control Instructions<br>
+7.  Input and Output Instructions</p>
+
+
 </div>
 </body>
+
+
 </html>
-
-
