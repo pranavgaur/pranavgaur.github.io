@@ -1,0 +1,184 @@
+body {
+      position: relative;
+      background-color: #f4f4f6;
+
+  }
+  
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+
+  }
+ 
+ #logo-navbar-middle{
+  height: 60px;
+  width: 200px;
+ }
+
+h1{
+  margin-top: 10px;
+
+}
+  .jumbotron{
+      background-image: url("../images/jumbo.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      margin-bottom: 0px;
+      height: 700px;
+      
+      text-align: center;
+      color: white;
+
+  }
+
+
+  #jumbotron {
+
+    margin-top: 120px;
+     text-align: center;
+      color: white;
+
+  }
+
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    color: red;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+
+}
+
+
+.navbar-collapse .navbar-nav > li > a {
+    color:#000;
+    font-size: 1.5em;
+    margin-right: 30px;
+
+     -webkit-transition: color 0.4s ease-out, font-size 0.4s ease-out;
+    transition: color 0.4s ease-out, font-size 0.4s ease-out;
+}
+
+.navbar-collapse .navbar-nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    color: #138D75;
+    font-size: 1.6em;
+     -webkit-transition: color 0.4s ease-in, font-size 0.4s ease-in;
+    transition: color 0.4s ease-in, font-size 0.4s ease-in;
+}
+
+.blog-container{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#blog-box-left{
+  background-color:#1abc9c; 
+  height:450px; 
+  margin-right:2px;
+  border-radius: 3px 0px 0px 3px; 
+  -webkit-box-shadow: 0px 1px #000;
+   -moz-box-shadow: 0px 1px #000
+        box-shadow: 0px 1px #000;
+
+}
+
+#blog-box-right{
+  background-color:#fff; 
+  height:450px; 
+  border-radius: 0px 3px 3px 0px;
+  box-shadow: 1px 1px 1px #000;
+}
+
+.ghost{
+  margin-left: 250px;
+}
+
+  a.ghost {
+    color:black;
+    border: 1px solid #48C9B0;
+    border-radius: 5px;
+    display: inline-block;
+    width: 180px;
+    padding: 2px;
+    
+    margin-left: 300px;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: color 0.9s ease-out, background-color 0.9s ease-out;
+    transition: color 0.9s ease-out, background-color 0.9s ease-out;
+}
+
+a.ghost:hover, a.ghost:focus {
+    background-color:#48C9B0;
+    color: white;
+    
+    
+    
+    -webkit-transition: color 0.7s ease-in, background-color 0.7s ease-in;
+    transition: color 0.7s ease-in, background-color 0.7s ease-in;
+}
+
+  pre{
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+
+  .btn-circle {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 18px;
+  line-height: 1.428571429;
+  border-radius: 20px;
+}
+
+  #tile1 {padding-top:50px;height:700px;color: #fff; background-image: url("../images/mpmc.jpg"); background-size: cover; }
+  #tile1:after {position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -500px;
+    
+    border-top: solid 50px #FDFEFE;
+    border-left: solid 500px transparent;
+    border-right: solid 500px transparent;}
+
+  #tile2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  
+
+
+
+#test {
+    position:relative;
+    background-color:#e15915;
+    height:320px !important;
+    width:100% !important;
+}
+
+#test:after {
+    
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -500px;
+    
+    border-top: solid 50px #e15915;
+    border-left: solid 500px transparent;
+    border-right: solid 500px transparent;
+
+}
+
+
+  #headsection {margin-top: 50px; padding:50px;height:auto;color: #2E4053; background-color: #FDFEFE;  }
+  #section1 {margin-top: 50px; padding:50px;height:auto;color: #2E4053; background-color: #E5E7E9;  }
+  #section2 {padding:50px;height:auto;color: #2E4053; background-color: #FDFEFE;}
+  #section3 {padding:50px;height:auto;color: #2E4053; background-color: #E5E7E9;}
+  #section41 {padding:50px;height:auto;color: #2E4053; background-color: #FDFEFE;}
+  #section42 {padding:50px;height:auto;color: #2E4053; background-color: #E5E7E9;}
