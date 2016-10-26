@@ -20,26 +20,7 @@ h1{
   margin-top: 10px;
 
 }
-  .jumbotron{
-      background-image: url("../images/jumbo.jpg");
-      background-size: cover;
-      background-attachment: fixed;
-      margin-bottom: 0px;
-      height: 700px;
-      
-      text-align: center;
-      color: white;
-
-  }
-
-
-  #jumbotron {
-
-    margin-top: 120px;
-     text-align: center;
-      color: white;
-
-  }
+ 
 
 
 .navbar .navbar-nav {
