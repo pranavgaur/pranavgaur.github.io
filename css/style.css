@@ -3,6 +3,7 @@
 body {
       position: relative;
       background-color: #f4f4f6;
+      overflow-x: hidden;
 
   }
   
@@ -59,7 +60,30 @@ body {
     margin-right: 10px;
 }
 
+/**/
 
+
+.ghost-button {
+    color: #009688;
+    background: transparent;
+    border: 1px solid #009688;
+    font-size: 19px;
+    padding: 7px 12px;
+    font-weight: normal;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    min-width: 120px;
+}
+
+.ghost-button:hover, .ghost-button:active {
+  color:#fff;
+  background:#009688;
+  text-decoration: none;
+}
+
+/**/
 
 /**
   MEDIA QUERIES
@@ -124,6 +148,10 @@ body {
 
 
 /*social icons jumbo ends*/
+
+ 
+
+
 
  
  
@@ -233,3 +261,4 @@ h1{
     background-color: transparent;
     border-color: transparent;
   }
+
