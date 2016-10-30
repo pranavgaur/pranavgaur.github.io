@@ -63,26 +63,6 @@ body {
 /**/
 
 
-.ghost-button {
-    color: #009688;
-    background: transparent;
-    border: 1px solid #009688;
-    border-radius: 2px;
-    font-size: 19px;
-    padding: 7px 12px;
-    font-weight: normal;
-    display: inline-block;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
-    min-width: 120px;
-}
-
-.ghost-button:hover, .ghost-button:active {
-  color:#fff;
-  background:#009688;
-  text-decoration: none;
-}
 
 /*social icons*/
 
@@ -94,11 +74,11 @@ body {
     font-size           : 25px;
     color               : #e84700;
     margin              : 0 auto;
-    height              : 80px;
-    width               : 80px;
+    height              : 40px;
+    width               : 40px;
     border-radius       : 50%;
     border              :2px solid #e84700;
-    line-height         : 80px;
+    line-height         : 35px;
     cursor              : pointer;
     -webkit-transition  : all  ease-in-out 0.35s;
     -moz-transition     : all  ease-in-out 0.35s;
@@ -126,21 +106,22 @@ body {
 
 .icon-circle  i:before{
     margin-left         : 0px;
-    font-size           : 40px;
+    font-size           : 20px;
 }
 
 @media (min-width:320px) and (max-width:768px) {
 
+  
 
  .icon-circle .fa{
     font-size           : 15px;
     color               : #e84700;
     margin              : 0 auto;
-    height              : 40px;
-    width               : 40px;
+    height              : 30px;
+    width               : 30px;
     border-radius       : 50%;
     border              :2px solid #e84700;
-    line-height         : 40px;
+    line-height         : 28px;
     cursor              : pointer;
     -webkit-transition  : all  ease-in-out 0.35s;
     -moz-transition     : all  ease-in-out 0.35s;
@@ -159,6 +140,7 @@ body {
     -ms-box-shadow          : inset 0px 0px 0px 5px #ffffff;
     -webkit-box-shadow      : inset 0px 0px 0px 5px #ffffff;
     box-shadow              : inset 0px 0px 0px 5px #ffffff;
+
     -ms-transform           : scale(1.2,1.2); 
     -webkit-transform       : scale(1.2,1.2);
     -moz-transform          : scale(1.2,1.2); 
@@ -291,6 +273,8 @@ body {
 .linkedin:hover{background:#0e76a8;color:#FFF;}
 
 .youtube:hover{background:#c4302b;color:#FFF;}
+
+.github:hover{background:#333;color:#FFF;}
 
 
 /*social icons jumbo ends*/
