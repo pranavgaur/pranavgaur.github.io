@@ -353,7 +353,7 @@ h1{
     border: 1px solid #48C9B0;
     border-radius: 5px;
     display: inline-block;
-    width: 180px;
+    width: auto;
     padding: 2px;
     
     margin-left: 5px;
