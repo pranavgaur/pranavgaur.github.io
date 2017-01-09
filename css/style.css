@@ -286,19 +286,56 @@ body {
  
  
  #logo-navbar-middle{
-  height: 60px;
-  width: 200px;
+  height: 80px;
+  width: 150px;
  }
+
+
+
+.logo img{
+ 
+  
+
+}
+
+
+.logo img:hover, .logo img:focus {
+    
+    background-color: black;
+    text-decoration: none;
+   
+    -webkit-transition: color 0.7s ease-in, background-color 0.7s ease-in;
+    transition: color 0.7s ease-in, background-color 0.7s ease-in;
+}
+
 
 h1{
   margin-top: 10px;
 
+}
+
+h1 a{
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+
+}
+
+
+h1 a:hover, h1 a:focus {
+    
+    color: #48C9B0;
+    text-decoration: none;
+   
+    -webkit-transition: color 0.7s ease-in, background-color 0.7s ease-in;
+    transition: color 0.7s ease-in, background-color 0.7s ease-in;
 }
  
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
     color: red;
+    margin-top: 10px;
 }
 
 .navbar .navbar-collapse {
@@ -322,6 +359,14 @@ h1{
     font-size: 1.6em;
      -webkit-transition: color 0.4s ease-in, font-size 0.4s ease-in;
     transition: color 0.4s ease-in, font-size 0.4s ease-in;
+}
+
+#blog-category{
+     margin-top: 10px;
+    margin-bottom: 30px;
+    
+
+
 }
 
 .blog-container{
@@ -372,6 +417,7 @@ h1{
 .btn:hover, .btn:focus {
     background-color:#48C9B0;
     color: white;
+    
    
     -webkit-transition: color 0.7s ease-in, background-color 0.7s ease-in;
     transition: color 0.7s ease-in, background-color 0.7s ease-in;
@@ -523,7 +569,7 @@ Image placeholders: placemi.com
   overflow: hidden;
   text-align: center;
   z-index: 99999999;
-    background-color: #777777;
+    background-color: #138D75;
   color: #eeeeee;
   width: 50px;
   height: 48px;
@@ -542,7 +588,7 @@ Image placeholders: placemi.com
   transition: all 0.5s ease-in-out;
 }
 .scroll-top-wrapper:hover {
-  background-color: #888888;
+  background-color: #48C9B0;
 }
 .scroll-top-wrapper.show {
     visibility:visible;
@@ -553,13 +599,7 @@ Image placeholders: placemi.com
   line-height: inherit;
 }
 
-/*
-Free App template for Bootstrap 3
-Code snippet by maridlcrmn for Bootsnipp.com
-Follow me on Twitter @maridlcrmn
-Image credits: unsplash.com
-Image placeholders: placemi.com
-*/
+
 
 
 .mt-100 {
